@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		872EBDA491E020DB31629AD4CEFCF9F9 /* OmniVirtSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 63039A5C7D74289FB6ABCD6E681A454E /* Build configuration list for PBXAggregateTarget "OmniVirtSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OmniVirtSDK;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F052B036BABCE64E6E262EF8B6BC78D9 /* Pods-vr tour-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A116DAFDB7A18F4572F2E8ED6C648B91 /* Pods-vr tour-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3131554C637A9AD42EE2A9EAA12CD95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		5B4D21DE68D321A1F0A53FF3A62CFA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872EBDA491E020DB31629AD4CEFCF9F9;
+			remoteInfo = OmniVirtSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05975620FC5A6F019A634F6047E56DB5 /* Pods-vr tour-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vr tour-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1590268A8B0D56C86A8E6FF66C22A1CE /* Pods-vr tour-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vr tour-acknowledgements.plist"; sourceTree = "<group>"; };
+		21D8F224FEB4232E73CFA681713EE1DF /* libPods-vr tour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-vr tour.a"; path = "libPods-vr tour.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2585B7A3BFB6632EAFAD9F61BA5600C5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		446B1C70BF3E45469BACE776506990DA /* Pods-vr tour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vr tour.release.xcconfig"; sourceTree = "<group>"; };
+		48DCD660453A692CBC8F31CC976C6614 /* Pods-vr tour-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vr tour-resources.sh"; sourceTree = "<group>"; };
+		4A56F0E8F72359292B387C386EA753C7 /* Pods-vr tour-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vr tour-frameworks.sh"; sourceTree = "<group>"; };
+		64E39EF2BB304EB2403091732615EAF6 /* OmniVirtSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OmniVirtSDK.xcconfig; sourceTree = "<group>"; };
+		708EB5F8ACF714ABF29901DD255E6D07 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		7F1C93E2EA7E5C0350B1C85E9137120C /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A116DAFDB7A18F4572F2E8ED6C648B91 /* Pods-vr tour-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vr tour-dummy.m"; sourceTree = "<group>"; };
+		B3608D2015C8BDF5769AB297FC30C8BF /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		BD391A31B4959E05A5D9F0C9AA16CF96 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		EA4DA30D9B181513AC635B1A6A958DBE /* OmniVirtSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OmniVirtSDK.framework; sourceTree = "<group>"; };
+		FC21EDF5359C9C232BB2CE0E377DFE2B /* Pods-vr tour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vr tour.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C06FB47DCC74C4485589152D0F325E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CC273991A914FED66873F814DADF19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D9F54FD4E174213442CA9199C9FCA63 /* Pods-vr tour */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		363AF0F43BB549A39B9A48E443A46BC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				708EB5F8ACF714ABF29901DD255E6D07 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		45A2DCC6C19DAF700C9BA473889BD700 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E39EF2BB304EB2403091732615EAF6 /* OmniVirtSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OmniVirtSDK";
+			sourceTree = "<group>";
+		};
+		4825D1AB016AE515B2985E3E432F03C1 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6E172F5D0A4D64B65D855FD86872C0C2 /* Base */,
+				E1063C888AA65B19EB06A4AC3F8D7A53 /* Maps */,
+				363AF0F43BB549A39B9A48E443A46BC3 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		4D9F54FD4E174213442CA9199C9FCA63 /* Pods-vr tour */ = {
+			isa = PBXGroup;
+			children = (
+				05975620FC5A6F019A634F6047E56DB5 /* Pods-vr tour-acknowledgements.markdown */,
+				1590268A8B0D56C86A8E6FF66C22A1CE /* Pods-vr tour-acknowledgements.plist */,
+				A116DAFDB7A18F4572F2E8ED6C648B91 /* Pods-vr tour-dummy.m */,
+				4A56F0E8F72359292B387C386EA753C7 /* Pods-vr tour-frameworks.sh */,
+				48DCD660453A692CBC8F31CC976C6614 /* Pods-vr tour-resources.sh */,
+				FC21EDF5359C9C232BB2CE0E377DFE2B /* Pods-vr tour.debug.xcconfig */,
+				446B1C70BF3E45469BACE776506990DA /* Pods-vr tour.release.xcconfig */,
+			);
+			name = "Pods-vr tour";
+			path = "Target Support Files/Pods-vr tour";
+			sourceTree = "<group>";
+		};
+		509BCC679B49EF7CCFC566C4EF94D9EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2585B7A3BFB6632EAFAD9F61BA5600C5 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E172F5D0A4D64B65D855FD86872C0C2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				85F93556A6C5B57F6FB1C5D8FEEE8D3F /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		72BCDB3AB0E6833205F4A072C5EECD14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4825D1AB016AE515B2985E3E432F03C1 /* GoogleMaps */,
+				C1117711386D78BE500B78193D20318E /* OmniVirtSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7300627C33F722E17CD9354647AFBBC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3608D2015C8BDF5769AB297FC30C8BF /* GoogleMaps.framework */,
+				7F1C93E2EA7E5C0350B1C85E9137120C /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85F93556A6C5B57F6FB1C5D8FEEE8D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD391A31B4959E05A5D9F0C9AA16CF96 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A67A25B591E7088CA9B483DEB4FF75B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D8F224FEB4232E73CFA681713EE1DF /* libPods-vr tour.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1117711386D78BE500B78193D20318E /* OmniVirtSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA1086D972ED5DE067842F456B3A83A7 /* Frameworks */,
+				45A2DCC6C19DAF700C9BA473889BD700 /* Support Files */,
+			);
+			name = OmniVirtSDK;
+			path = OmniVirtSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				72BCDB3AB0E6833205F4A072C5EECD14 /* Pods */,
+				A67A25B591E7088CA9B483DEB4FF75B1 /* Products */,
+				29CC273991A914FED66873F814DADF19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1086D972ED5DE067842F456B3A83A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DA30D9B181513AC635B1A6A958DBE /* OmniVirtSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1063C888AA65B19EB06A4AC3F8D7A53 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7300627C33F722E17CD9354647AFBBC6 /* Frameworks */,
+				509BCC679B49EF7CCFC566C4EF94D9EB /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1A8ADF1617B25337956CEDE02EF2949 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A64D5E73CBD798F19729029D27CC7BCA /* Pods-vr tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E76DED0DF74E0CAB7349E70C66DC4D5 /* Build configuration list for PBXNativeTarget "Pods-vr tour" */;
+			buildPhases = (
+				C1A8ADF1617B25337956CEDE02EF2949 /* Headers */,
+				A2A84C4980B76D1B911A43339C46FFE4 /* Sources */,
+				D2C06FB47DCC74C4485589152D0F325E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9268FA1E30A2C05DB5904AA96F351CC8 /* PBXTargetDependency */,
+				F7A9DD231EAFFEE1B82B3C00AB4F365F /* PBXTargetDependency */,
+			);
+			name = "Pods-vr tour";
+			productName = "Pods-vr tour";
+			productReference = 21D8F224FEB4232E73CFA681713EE1DF /* libPods-vr tour.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A67A25B591E7088CA9B483DEB4FF75B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				872EBDA491E020DB31629AD4CEFCF9F9 /* OmniVirtSDK */,
+				A64D5E73CBD798F19729029D27CC7BCA /* Pods-vr tour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A84C4980B76D1B911A43339C46FFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F052B036BABCE64E6E262EF8B6BC78D9 /* Pods-vr tour-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9268FA1E30A2C05DB5904AA96F351CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 3131554C637A9AD42EE2A9EAA12CD95D /* PBXContainerItemProxy */;
+		};
+		F7A9DD231EAFFEE1B82B3C00AB4F365F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OmniVirtSDK;
+			target = 872EBDA491E020DB31629AD4CEFCF9F9 /* OmniVirtSDK */;
+			targetProxy = 5B4D21DE68D321A1F0A53FF3A62CFA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0913EBFA18BAE9B2D6879F02271171C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E39EF2BB304EB2403091732615EAF6 /* OmniVirtSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1289995C564B13A74DEC8027D4660E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E39EF2BB304EB2403091732615EAF6 /* OmniVirtSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708EB5F8ACF714ABF29901DD255E6D07 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5176C46F566F53B24F7D605A48048DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446B1C70BF3E45469BACE776506990DA /* Pods-vr tour.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708EB5F8ACF714ABF29901DD255E6D07 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5835BDC2E200FC1A016C453B675C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC21EDF5359C9C232BB2CE0E377DFE2B /* Pods-vr tour.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E76DED0DF74E0CAB7349E70C66DC4D5 /* Build configuration list for PBXNativeTarget "Pods-vr tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5835BDC2E200FC1A016C453B675C755 /* Debug */,
+				5176C46F566F53B24F7D605A48048DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63039A5C7D74289FB6ABCD6E681A454E /* Build configuration list for PBXAggregateTarget "OmniVirtSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0913EBFA18BAE9B2D6879F02271171C7 /* Debug */,
+				1289995C564B13A74DEC8027D4660E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
